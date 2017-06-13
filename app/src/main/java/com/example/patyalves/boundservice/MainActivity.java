@@ -15,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     BoundService mBoundService;
     boolean mServiceBound=false;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
