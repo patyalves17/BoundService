@@ -25,7 +25,7 @@ public class BoundService extends Service {
         mChronometer.setBase(SystemClock.elapsedRealtime());
         mChronometer.start();
     }
-
+ 
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
